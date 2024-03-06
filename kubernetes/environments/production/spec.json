@@ -1,0 +1,14 @@
+{
+    "apiVersion": "tanka.dev/v1alpha1",
+    "kind": "Environment",
+    "metadata": {
+        "name": "production",
+        "labels": {
+            "project": "production"
+        }
+    },
+    "spec": {
+        "apiServer": "",
+        "namespace": "production-shopify-sales-channel"
+    }
+}

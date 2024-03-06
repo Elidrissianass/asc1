@@ -1,0 +1,49 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Session {
+  id          String    @id
+  shop        String
+  state       String
+  isOnline    Boolean   @default(false)
+  scope       String?
+  expires     DateTime?
+  accessToken String
+  userId      BigInt?
+}
+
+model Order {
+  id              Int @id @default(autoincrement())
+  ankorOrderId    String
+  shopifyOrderId  String
+}
+
+model Settings {
+  id                        Int       @id @default(autoincrement())
+  shopId                    String    @unique
+  webhoohUrl                String
+  ankorClientID             String
+  ankorClientSecret         String
+  dailyProductSync          Boolean   @default(false)
+  pricesDiscountPercentage  Int       @default(10)
+  orderSync                 Boolean   @default(true)
+  syncedOrderStatus         String    @default("authorized")
+  termsAccepted             Boolean   @default(false)
+  isOnBoarded               Boolean   @default(false)
+}
+
+model OnBoarding {
+  id                        Int       @id @default(autoincrement())
+  shopId                    String    @unique 
+  currentStep               Int
+  isOnBoarded               Boolean   @default(false)
+}

@@ -1,0 +1,8 @@
+.cache
+build
+node_modules
+gha-creds-*.json
+.git/
+.github/
+kubernetes/
+.devspace/

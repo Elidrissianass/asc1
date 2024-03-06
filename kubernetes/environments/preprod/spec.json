@@ -1,0 +1,14 @@
+{
+    "apiVersion": "tanka.dev/v1alpha1",
+    "kind": "Environment",
+    "metadata": {
+        "name": "preprod",
+        "labels": {
+            "project": "preprod"
+        }
+    },
+    "spec": {
+        "apiServer": "",
+        "namespace": "preprod-shopify-sales-channel"
+    }
+}

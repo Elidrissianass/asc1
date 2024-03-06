@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "20b7ca1a0e6d72a82bdc46efe16f1667"
+name = "ankorstore-sales-channel"
+application_url = "https://aj-entered-experiments-nba.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "anasync-store.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products,read_orders,write_orders,read_order_edits,write_order_edits,customer_read_orders,customer_read_markets"
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://aj-entered-experiments-nba.trycloudflare.com/auth/callback",
+  "https://aj-entered-experiments-nba.trycloudflare.com/auth/shopify/callback",
+  "https://aj-entered-experiments-nba.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+  [webhooks.privacy_compliance]
+  customer_deletion_url = "https://app.example.com/api/webhooks/customer_deletion"
+  customer_data_request_url = "https://app.example.com/api/webhooks/customer_request"
+  shop_deletion_url = "https://app.example.com/api/webhooks/deletion"
+
+[pos]
+embedded = false

@@ -1,0 +1,40 @@
+version: v2beta1
+name: shopify-sales-channel
+
+vars:
+
+  KUBE_CONTEXT: docker-desktop
+  DEVSPACE_FLAGS: "--kube-context ${KUBE_CONTEXT} -n localdev-shopify-sales-channel"
+pipelines:
+  deploy:
+    run: |-
+      run_dependencies --all
+      ensure_pull_secrets --all
+      build_images --all
+      create_deployments bootstrap
+      create_deployments app
+
+images:
+  app:
+    image: shopify-sales-channel
+    dockerfile: ./Dockerfile
+    buildKit:
+      args: [--load]
+
+deployments:
+  bootstrap:
+    kubectl:
+      manifests:
+        - ./hack/tkenv/stage0
+      kustomizeArgs:
+        - --enable-alpha-plugins
+        - --enable-exec
+      kustomize: true
+  app:
+    kubectl:
+      manifests:
+        - ./hack/tkenv/stage1
+      kustomizeArgs:
+        - --enable-alpha-plugins
+        - --enable-exec
+      kustomize: true

@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "apps-core"
+        }
+      },
+      "version": "294712516fcf94c86cc1ef8d2f6ab62457defcf2",
+      "sum": "M4csxLG5DosJrijrLyhngGpXcsL3akFHdO7N8KtnZN4="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "core"
+        }
+      },
+      "version": "294712516fcf94c86cc1ef8d2f6ab62457defcf2",
+      "sum": "Yoq+HOyIOxn7h9G7bEp8rC3oV0x82lcZB82/JQyNp4E="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "dev"
+        }
+      },
+      "version": "294712516fcf94c86cc1ef8d2f6ab62457defcf2",
+      "sum": "LlDIJcIbjGOp9aeiiKiRCHNqwMEp19zWGQK8aqt19sM="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "generic-app"
+        }
+      },
+      "version": "294712516fcf94c86cc1ef8d2f6ab62457defcf2",
+      "sum": "q/SDnCz3b+GFiIOyE6Bxet/kCIR+i/RSItHH7pnYUII="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "simplemysql"
+        }
+      },
+      "version": "294712516fcf94c86cc1ef8d2f6ab62457defcf2",
+      "sum": "DEt8snAmf55J7OShzqSaK61uU7cCIU3HmgnNDyE3fCY="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "utils"
+        }
+      },
+      "version": "294712516fcf94c86cc1ef8d2f6ab62457defcf2",
+      "sum": "iEuwidB7ZGGq+voL/IwLC9htxrm2EbU3FdFz/oZ4Lfs="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "ksonnet-util"
+        }
+      },
+      "version": "f31ba2e68d0cc8acdf7acd5c7b181a6b09aeb4c3",
+      "sum": "0y3AFX9LQSpfWTxWKSwoLgbt0Wc9nnCwhMH2szKzHv0="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "tanka-util"
+        }
+      },
+      "version": "f31ba2e68d0cc8acdf7acd5c7b181a6b09aeb4c3",
+      "sum": "ShSIissXdvCy1izTCDZX6tY7qxCoepE5L+WJ52Hw7ZQ="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/aiven-libsonnet.git",
+          "subdir": "0.8.0"
+        }
+      },
+      "version": "65de5c187197eed868350c50101a3a1a70811ca3",
+      "sum": "V0zaek4lviOd9d/eHRRwBTfI4BG9fayDxaw+YQAOrdU=",
+      "name": "aiven-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/cert-manager-libsonnet.git",
+          "subdir": "1.10"
+        }
+      },
+      "version": "a994a6ed26bafed6e35c36232e84e360f21129aa",
+      "sum": "yp+7X/28L/wm0SfsAHTnAj6/MOzWFwAUod0bJMf5dUI=",
+      "name": "cert-manager-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/cnrm-libsonnet.git",
+          "subdir": "1.93"
+        }
+      },
+      "version": "840948baedf4ece9aeffa1c049ba0accf315ff47",
+      "sum": "b/6Ong4+Ta6IRKdImZPNP4sKKKJPsam3O9+qHhqDKZo=",
+      "name": "cnrm-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/composable-libsonnet.git",
+          "subdir": "0.2.0"
+        }
+      },
+      "version": "04fca48eb867e2e5db9fade67b60206b525b29e7",
+      "sum": "Up+HTgXSPv7guA5z/sC+VGydp3f9hO4KoTOc0uYI+s8=",
+      "name": "composable-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/docsonnet.git",
+          "subdir": "doc-util"
+        }
+      },
+      "version": "6ac6c69685b8c29c54515448eaca583da2d88150",
+      "sum": "BrAL/k23jq+xy9oA7TWIhUx07dsA/QLm3g7ktCwe//U="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/flagger-libsonnet.git",
+          "subdir": "1.21"
+        }
+      },
+      "version": "6c8eed44b14b4b2604a3b54890843dbff3fa7ab7",
+      "sum": "oAOTj8lYAYtxBqJ3eglOpj7Rlz8aEXoilBLTPtt7HIg=",
+      "name": "flagger-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/fluxcd-libsonnet.git",
+          "subdir": "0.35.0"
+        }
+      },
+      "version": "5ce94aeb2abf76e064194e982991341e8d3ae7ec",
+      "sum": "GNLLCOdXED8AGzJ//p3IrziaNSo8htngc5CY3zsnp3A=",
+      "name": "fluxcd-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/istio-libsonnet.git",
+          "subdir": "1.17"
+        }
+      },
+      "version": "8947dff13e8c30d7d84dbdadfd7ecc28a48d748b",
+      "sum": "FtxOdD4ncTvkDKmV4Det0imyzOAMypxibHzQcmCGwms=",
+      "name": "istio-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/k8s-libsonnet.git",
+          "subdir": "1.25"
+        }
+      },
+      "version": "3e32f80d1493d1579d273d1522af1fae2cc7c97f",
+      "sum": "tEpnIPW5Ey1S34jLO8rGtS3ySOBzzdYPRHbHN4nN3QA=",
+      "name": "k8s-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/keda-libsonnet.git",
+          "subdir": "2.11"
+        }
+      },
+      "version": "bfaa7c49f57a91e031a59de5fe7fa8e33974932a",
+      "sum": "6EW9EhpjVAhC7FfuueGecDNcmzyZ0bBnfkSIi3y6uQ4=",
+      "name": "keda-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/rabbitmq-libsonnet.git",
+          "subdir": "1.7"
+        }
+      },
+      "version": "da6cdb1e0a874a1000fb72fe6a362ca414f996fc",
+      "sum": "2RIk7xd9rJY0jDvQVWSd0dF7McG/QcrzdTLIfubhf/I=",
+      "name": "rabbitmq-libsonnet"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/rabbitmq-messaging-topology-operator-libsonnet.git",
+          "subdir": "1.10"
+        }
+      },
+      "version": "6af692bdf61a1e3b8e935afbdb9da8df15d63306",
+      "sum": "+35RCBF/nDedU7+KCcbfZ+XKjkbeED8iijbut3UXBFI=",
+      "name": "rabbitmq-messaging-topology-operator-libsonnet"
+    }
+  ],
+  "legacyImports": false
+}

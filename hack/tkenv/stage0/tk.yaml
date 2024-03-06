@@ -1,0 +1,8 @@
+apiVersion: aks
+kind: TankaEnv
+metadata:
+  name: tk-env
+  annotations:
+    config.kubernetes.io/function: |
+      exec:
+        path: ./tk.sh

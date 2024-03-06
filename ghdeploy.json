@@ -1,0 +1,10 @@
+{
+  "appname": "shopify-sales-channel",
+  "include": [
+    {
+      "name": "app",
+      "dockerfile": "Dockerfile",
+      "context": "./"
+    }
+  ]
+}

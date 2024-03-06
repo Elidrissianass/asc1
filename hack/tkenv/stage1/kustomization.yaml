@@ -1,0 +1,3 @@
+namespace: localdev-shopify-sales-channel
+generators:
+- tk.yaml

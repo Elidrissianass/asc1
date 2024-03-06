@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "apps-core"
+        }
+      },
+      "version": "main"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "core"
+        }
+      },
+      "version": "main"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "dev"
+        }
+      },
+      "version": "main"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "generic-app"
+        }
+      },
+      "version": "main"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "simplemysql"
+        }
+      },
+      "version": "main"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "ssh://git@github.com/ankorstore/jsonnet-libs.git",
+          "subdir": "utils"
+        }
+      },
+      "version": "main"
+    }
+  ],
+  "legacyImports": true
+}
